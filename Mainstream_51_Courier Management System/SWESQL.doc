@@ -1,0 +1,50 @@
+CREATE TABLE Users (
+    UserID INT PRIMARY KEY,
+    FirstName VARCHAR(100),
+    LastName VARCHAR(100),
+    Email VARCHAR(100),
+    CreatedAt TIMESTAMP
+);
+CREATE TABLE Shipments (
+    ShipmentID INT PRIMARY KEY ,
+    SenderID INT NOT NULL,
+    RecipientID  INT,
+    RecipientAddress VARCHAR(255),
+    RecipientContact VARCHAR(255),
+    Description VARCHAR(255),
+    Dimensions VARCHAR(50),
+    Speed VARCHAR(20),
+    TrackingID INT,
+    Status VARCHAR(20),
+    Arrival_Shipment_Date DATE NOT NULL,
+    Start_shipment_date DATE NOT NULL,
+    invoice INT,
+   FOREIGN KEY (SenderID) REFERENCES Users(UserID),
+   FOREIGN KEY (RecipientID) REFERENCES Users(UserID)
+);
+
+create or replace PROCEDURE shipID
+(SI OUT NUMBER)
+as
+BEGIN
+select max(shipmentid)
+into SI
+from shipments;
+end;
+
+create or replace PROCEDURE GetUsertID
+(UI OUT NUMBER)
+as
+BEGIN
+select max(userid)
+into UI
+from users;
+end;
+create or replace PROCEDURE trackID
+(TI OUT NUMBER)
+as
+BEGIN
+select max(trackingid)
+into TI
+from shipments;
+end;
