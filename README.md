@@ -1,7 +1,7 @@
 # Courier Management System
 
 ## Project Description
-The Courier Management System is a tool designed to streamline courier services within organizations. It automates various tasks such as tracking shipments, sending shipments, generating reports, and managing invoices. By integrating with other systems, it ensures smooth flow of information and aims to improve delivery accuracy, operational efficiency, customer satisfaction, and overall logistics and supply chain management goals.
+The Courier Management System is a University Project and a tool designed to streamline courier services within organizations. It automates various tasks such as tracking shipments, sending shipments, generating reports, and managing invoices. By integrating with other systems, it ensures smooth flow of information and aims to improve delivery accuracy, operational efficiency, customer satisfaction, and overall logistics and supply chain management goals
 
 ## Contributors
 - **TA:** Alshaymaa Abdelaty
@@ -9,13 +9,10 @@ The Courier Management System is a tool designed to streamline courier services 
   - Ali Ahmed Abdel Hamid Ali
   - Ali Khaled Abdel-Aal
   - Amr Khaled Abdel Hamid 
-  - [Mohamed Hamid Suliman ABDALGADER](https://github.com/modhtom)
+  - [Mohamed Hamid Suliman Abdalgader](https://github.com/modhtom)
   - Ali Khaled Mohamed
   - Omar Atef Mohamed
   - Omar Said Sayed
-
-## Date
-Date: 2/4/2024
 
 ## Table of Contents
 1. [Introduction](#1-introduction)
