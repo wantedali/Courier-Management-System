@@ -7,7 +7,7 @@ The Courier Management System is a University Project and a tool designed to str
 - **TA:** Alshaymaa Abdelaty
 - **Students:**
   - Ali Ahmed Abdel Hamid Ali
-  - [Ali Khaled](https://github.com/wantedali) 
+  - [Ali Khaled Abdelaal](https://github.com/wantedali) 
   - [Amr Khaled Abdel Hamid](https://github.com/Amrkhaledd13) 
   - [Mohamed Hamid Suliman Abdalgader](https://github.com/modhtom)
   - Ali Khaled Mohamed
